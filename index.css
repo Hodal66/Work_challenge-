@@ -1,0 +1,397 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    margin: 5% 10% 0% 5%;
+}
+header nav .btn_try_it{
+    float: right;
+    color: hsl(321, 100%, 78%);
+    border-radius: 50px;
+    width: 8%;
+    background-color: white;
+    padding: 8px;
+    border: 2px solid hsl(321, 100%, 78%);
+    
+}
+header .top{
+    text-align: center;
+
+}
+header .top h2{
+    margin-top: 10%;
+    color:  hsl(192, 100%, 9%);
+    font-size: 40px;
+}
+header .top p{
+    font-size:20px;
+}
+header .top .btn_get_started:hover{
+    border: 2px solid hsl(321, 100%, 78%);
+    background-color: hsl(321, 100%, 78%);
+}
+header .top .btn_get_started{
+    border: 2px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    width: 20%;
+
+}
+/* //article second part */
+article .content_image{
+    padding-top: 10%;
+    width: 100%;
+}
+/* article  second part*/
+aside{
+    display: flex;
+    flex-direction: row;
+}
+aside .communit{
+    margin-left: 10%;
+    padding: 5%;
+}
+aside .communit .p_commit1{
+    font-weight: 700;
+    font-size: 400%;
+    
+}
+aside .communit .p_commit2{
+    color:gray ;
+}
+aside .message{
+    padding: 5%; 
+    margin-left: 30%;
+}
+aside .message .p_message1{
+    font-size: 400%;
+ font-weight: 700;
+
+}
+aside .message .p_message2{
+    color: gray;
+
+}
+/* the sectionn */
+section .content {
+    padding-top: 20%;
+    background-image: url("../work-challenge3/images/bg-section-top-desktop-1.svg");
+   background-size:cover;
+    background-repeat:no-repeat;
+    display: flex;
+    height: 500%;
+}
+section .content .pragraph{
+    margin-left: 5%;
+    padding-right: -15%;
+}
+section .content .pragraph h1{
+    color:hsl(192, 100%, 9%); 
+    
+    font-size: 200%;
+    padding-bottom: 5%;
+
+}
+section .content .pragraph p{
+    font-size: 18px;
+}
+section .content .asidee{
+    width:35%;
+    height: 30%;
+    margin-left:15%;
+}
+/* secand section */
+
+
+section .second{
+   display: flex; 
+padding-top: 20%;
+flex-direction: row;
+
+}
+section .second img{
+    width: 35%;
+    height: 35%;
+}
+section .second .conversation{
+    margin: 8% 0% 0% 15%;
+    
+}
+section .second .conversation h1{
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 3%;
+    font-weight: 700;
+    font-size: 30px;
+}
+section .second .conversation p{
+    font-size:20px ;
+}
+section .users{
+    display: flex;
+    padding-top: -80%;
+    background-image:url("../work-challenge3/images/bg-section-top-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: 85%;
+    background-position-y: 85%;
+    flex-wrap: wrap-reverse;
+}
+section .users .pragraph{
+margin-top: 30%;
+margin-left: 30px;
+
+}
+section .users .pragraph h1{
+    font-size:200%;
+}
+
+
+
+
+section .users .user_pict img{
+    width: 50%;
+    height: 50%;
+    margin: 40% 20% 0% 40%;
+}
+section .bottom{
+    text-align: center;
+}
+section .bottom h1{
+    font-size:150%;
+}
+
+section .bottom .btn_started {
+    border: 2px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 50px;
+    padding: 16px;
+    width: 200px;
+}
+section .bottom .btn_started:hover{
+    border: 2px solid hsl(321, 100%, 78%);
+    background-color: hsl(321, 100%, 78%);
+}
+section .bottom .btn_started a{
+    text-decoration: none;
+    color: white;
+}
+.fill img{
+    margin-top: 10%;
+    margin-bottom: -1%;
+}
+
+footer{
+    color: white;
+    background-color:hsl(192, 100%, 9%);
+    display: flex;
+    padding:5% 0% 8% 10% ;
+    flex-wrap: wrap-reverse;
+   
+}
+footer .nav .top {
+    padding-bottom: 5%;
+}
+footer .nav .address{
+    padding-bottom: 10%;
+}
+footer .nav .top .top_heading{
+    display: flex;
+}
+footer .nav .top .top_heading h1{
+    font-size: 300%;
+    font-weight: 700;
+    color: white;
+}
+footer .nav .top {
+    margin:10px 5px 5px 0px;
+}
+footer .nav .top p{
+    font-size: 15px;
+    color: white;
+}
+footer .newsletter{
+    margin-left: 4%;
+}
+footer .newsletter p{
+    font-size:  15px;;
+}
+footer .nav .social_media_icon{
+    font-size: 140%;
+    display: flex;
+}
+footer .nav .address {
+    font-size: 15px;
+}
+footer .newsletter .email_validation{
+    display: flex;
+    flex-direction: column;
+}
+footer .newsletter .email_validation input{
+    padding: 15px;
+    border-radius: 8%;
+    width: 150px;
+    padding-left: 20%;
+    margin-left: 0%;
+} 
+.email_validate{
+    padding-top: 20px;
+}
+footer .newsletter .email_validation .btn_subscribe{
+    background-color: hsl(322, 100%, 66%) ;
+    padding:8px;
+    border: 2px solid hsl(322, 100%, 66%) ;
+    width: 150px;
+    border-radius: 4%;
+    color: white;
+    margin-left: 5%;
+}
+footer .newsletter .email_validation .btn_subscribe:hover{
+    border: 2px solid hsl(321, 100%, 78%);
+    background-color: hsl(321, 100%, 78%);
+}
+
+footer .nav .social_media_icon .fa-twitter-square:hover{
+    background-color: blue;
+    color: white;
+
+}
+/* //////////////////////////////////////////////////////////////
+Responsiveness */
+
+@media screen and (max-width: 375px)
+{
+    body{
+        margin:2px;
+        padding: 0px;
+    }
+    header nav img{
+        width: 40%;
+        width: 40%;
+    }
+     header nav .btn_try_it{
+            float: right;
+           
+            width: 30%;
+            padding: 8px;  
+            
+    }
+     header .top h2{
+            margin-top: 35%;
+            font-size: 29px;
+    }
+    header .top p{
+            font-size:20px;
+        }
+        header .top .btn_get_started{
+            border: 2px solid  hsl(321, 89%, 46%);
+            background-color:  hsl(321, 89%, 46%);
+            padding: 20px;
+            width: 100%;
+        
+        }
+        header .top .btn_get_started:hover{
+            border: 2px solid hsl(321, 100%, 78%);
+            background-color: hsl(321, 100%, 78%);
+        }
+        .content_image {
+            margin-right: 3%;
+            width: 93%;
+            margin-left: 3%;
+        }
+        aside{
+    
+            flex-direction:column;
+        }
+        .p_message1 {
+            margin-left: -76px;
+        }
+        article aside .communit img{
+            width: 20%;
+            height: 100%;
+        }
+        section .content .pragaph img{
+            display: none;
+        }
+        section .content .asidee{
+            display: none;
+           
+        }
+        section .content .pragaph{
+            background-image: url("../work-challenge3/images/bg-section-top-mobile-1.svg");
+        }
+        section .content{
+            background-color:lightcyan;
+        }
+
+section .content .prograph .small_divice{
+    width: 30%;
+}
+section .content .pragraph h1 {
+    font-size: 120%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+section .content .pragraph p {
+    font-size: 15px;
+}
+section .second{
+flex-direction: column;
+}
+section .second img{
+    width: 50% ;
+    height: 50%;
+    margin-left: 20%;
+}
+section .second .conversation h1 {
+   
+    font-size: 20px;
+}
+section .second .conversation p {
+    font-size: 15px;
+    margin-left: -32px;
+}
+section .users .pragraph h1 {
+    font-size: 119%;
+    text-align: center;
+}
+section .users .pragraph {
+    font-size: 15px;
+}
+section .bottom h1 {
+    font-size: 98%;
+    margin-top: 40%;
+}
+footer .newsletter .email_validation{
+display: flex;
+    flex-direction: row;
+}
+section .bottom .btn_started {
+    border: 2px solid hsl(321, 89%, 46%);
+    background-color: hsl(321, 89%, 46%);
+    color: white;
+    border-radius: 50px;
+    padding: 5%;
+    width: 70%;
+}
+section .bottom .btn_started:hover{
+    border: 2px solid hsl(321, 100%, 78%);
+    background-color: hsl(321, 100%, 78%);
+}
+
+.fill img{
+    width: 100%;
+    margin-bottom: -3%;
+}
+footer{
+    flex-direction:row-reverse;
+}
+
+
+
+}
